@@ -27,7 +27,7 @@ import ManageStudentDepartment from "./components/userActions/student-department
 function App() {
   return (
     <>
-      {0 == 0 ? (
+      {0 == 1 ? (
         <>
           <Switch>
             <Route path="/" component={Login} exact />
